@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+
+
+body {
+    background-color: green;
+    text-align: center;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    display: block;
+    font-size: 100px;
+    background-color: ghostwhite;
+   
+}
