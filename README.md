@@ -3,16 +3,14 @@
 ## Índice
 
 * [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [2. Enredo do Jogo](#2-enredo-do-jogo)
+* [3. Objetivos](#3-objetivos)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras
+* [5. Hacker edition](#6-hacker-edition)
+* [6. Considerações técnicas](#7-considerações-técnicas)
+* [7. Guias, dicas e leituras
   complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+* [8. Checklist](#9-checklist)
 
 ***
 
@@ -43,87 +41,23 @@ com facilidade e não oferecem muita segurança na comunição, mas a cifra de C
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## 2. Resumo do projeto
+## 2. Enredo do jogo
 
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
-
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
-
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
+A série Vinkings conta como um simples fazendeiro tornou-se Rei de toda a Escandináva.  
+Ragnar Lothbrok conhecido como Ragnar Calças Peludas, junto com sua família e amigos 
+fizeram fama ao realizar várias invasões por terras desconhecidas.
 
 ## 3. Objetivos de aprendizagem
+Baseada na fantástica história de Ragnar foi criado um game, nesta fase do jogo Ragnar 
+deseja invadir Paris, porém deve correr contra o tempo para desvendar um código enviado 
+por seu egnimático amigo Floki., para que seu plano seja concretizado e conquistando Paris.
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
-
-Em outras palavras, você aprenderá:
-
-* Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
-  incerteza**.
-* Entender as **necessidade do usuário** e propor uma solução.
-* Entender a importância do processo de prototipação durante a criação de um
-  produto digital.
-* Conhecer os princípios básicos de desenho visual.
-* Utilizar _tags_ semânticas de HTML e elementos de formulário.
-* Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
-* Utilizar diversos tipos de seletores no CSS: elementos, classe e id.
-* Utilizar o modelo de caixas do CSS (border, margin, padding).
-* Definir regras de estilo do CSS.
-* Permitir ao usuário interagir com elementos do DOM e fazer que a aplicação
-  responda (cifrar/decifrar) quando os **evento de DOM** ocorrerem.
-* Manipular _**strings**_ (cadeias de texto).
-* Usar **controle de fluxo** (loops, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**) através de
-  **innerHTML** ou **textContent**.
-* **Implementar uma função** dada a descrição do seu comportamento.
-* Verificar que as suas funções façam o esperado (**usando provas unitárias
-  (_unit test_) com Jest**).
-* Configurar a sua conta de git.
-* Fazer o _fork_ e _clone_ do repositório do projeto.
-* Manter o seu repositório remoto sempre atualizado (commit, pull, push).
-* Subir o seu projeto para o Github Pages.
+O game é direcionado para fãs da série, apreciadores da cultura geek e principalmente para amantes gamers.
 
 ## 4. Considerações gerais
 
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
-  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
-
-## 5. Critérios de aceitação mínimos do projeto
-
-Use o alfabeto simples (somente maiúsculas e sem ç):
-
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-### Definição do produto
-
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
-definir o produto final a nível de expriência e interface.
-
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
-
-### Interface do usuário (UI)
-
-A interface deve permitir ao usuário:
-
-* Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
-  quer que a cifra utilize.
-* Inserir uma mensagem (texto) para ser cifrada.
-* Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (texto) para ser decifrada.
-* Ver o resultado da mensagem decifrada.
+Todo e qualquer direito está reservado a emissora: History.
+Este projeto tem cunho educacional, proposto pela Bootcamp da Laboratória.
 
 ### Scripts / Arquivos
 
@@ -145,7 +79,7 @@ A interface deve permitir ao usuário:
 * `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
   você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
 
-## 6. Hacker Edition
+## 5. Hacker Edition
 
 As seções chamadas _Hacker Edition_ são **opcionais**. Se você **terminou** tudo
 e ainda sobrou tempo, faça essa parte. Assim você poderá aprofundar e exercitar
@@ -159,7 +93,7 @@ de partida para implementar o suporte para esses casos.
 Também não foi mencionado o que aconteceria com _offset_ negativo. Como parte da
 hacker edition te convidamos a explorar esse caso sozinha.
 
-## 7. Considerações técnicas
+## 6. Considerações técnicas
 
 A lógica do projeto deve estar implementada inteiramente em JavaScript. Nesse
 projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
@@ -214,7 +148,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 
 ***
 
-## 8. Guias, dicas e leituras complementares
+## 7. Guias, dicas e leituras complementares
 
 ### Primeiros passos
 

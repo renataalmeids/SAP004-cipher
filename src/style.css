@@ -1,20 +1,40 @@
 h1{
     text-align: center;
+    padding: 50px;
 }
 
 
 body {
-    background-color: green;
+    display: block;
     text-align: center;
+    padding: 4px;
+    background-size: cover;
+    background-image: url(img/floki_1920x1080.jpg);
 }
 
-button{
-    font-family: Arial, Helvetica, sans-serif;
+p {
+    font-family: cursive;
+    text-align: center;
+    border: 10px solid, center; 
+    
 }
 
+.texto{
+    font-family: cursive;
+
+}
+
+.button{
+    font-family: cursive; 
+    margin-top: auto;
+    
+}
+#answer{
+    text-align: center;
+    margin-top: auto;
+}
 form{
     display: block;
-    font-size: 100px;
-    background-color: ghostwhite;
+    font-size: 20px;
    
 }
