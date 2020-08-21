@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+
+body {
+    display: block;
+    text-align: center;
+    padding: 4px;
+    background-size: cover;
+    background-image: url(img/floki_1920x1080.jpg);
+}
+
+p {
+    font-family: cursive;
+    text-align: center;
+    border: 10px solid, center; 
+    
+}
+
+.texto{
+    font-family: cursive;
+
+}
+
+.button{
+    font-family: cursive; 
+    margin-top: auto;
+    
+}
+
+.answer{
+    text-align: center;
+    margin-top: auto;
+}
+
+.section{
+    display: block;
+    font-size: 20px;   
+}
