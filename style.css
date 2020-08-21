@@ -15,19 +15,16 @@ body {
 p {
     font-family: cursive;
     text-align: center;
-    border: 10px solid, center; 
-    
+    border: 10px solid, center;  
 }
 
 .texto{
     font-family: cursive;
-
 }
 
 .button{
     font-family: cursive; 
     margin-top: auto;
-    
 }
 
 .answer{
